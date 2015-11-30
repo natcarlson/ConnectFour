@@ -1,0 +1,66 @@
+body {
+  background-color: white;
+
+}
+
+.connectFourGame {
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#game-board {
+  background-color: yellow;
+  width: 730px;
+  border: 2px solid;
+  border-color: gray;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+
+}
+
+
+.cell {
+  background-color: yellow;
+  width: 6em;
+  height: 5em;
+  margin: 3px;
+  padding: 3px;
+  border: 2px solid;
+  border-color: gray;
+}
+
+
+.player-1 {
+  background-color: red;
+  border-radius: 1400%;
+}
+
+
+.player-2 {
+  background-color: black;
+  border-radius: 1400%;
+}
+
+
+.legLeft {
+  background-color: darkblue;
+  display: inline-block;
+  vertical-align: top;
+  width: 13px;
+  height: 730px;
+  margin: 0;
+  padding: 0;
+}
+
+
+.legRight {
+  background-color: darkblue;
+  display: inline-block;
+  vertical-align: top;
+  width: 13px;
+  height: 730px;
+  margin: 0;
+  padding: 0;
+}
